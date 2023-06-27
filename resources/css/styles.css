@@ -28,12 +28,13 @@ html {
     color: #163438;
     line-height: 30px;
     font-size: 1.25rem;
+    transition-property: color, font-size;
+    transition-duration: .5s;
 }
 
 #nav-container li a:hover {
     color:#3E9E90;
     font-size: 1.35rem;
-    transition: ease-in;
 }
 
 
@@ -335,13 +336,15 @@ html {
     font-size: 1rem;
     text-transform: uppercase;
     box-shadow: 2px 2px 2px;
+    transition-property: background-color, font-size, width;
+    transition-duration: .5s;
 }
 
 #location-contact-container .form-container form button:hover{
     width: 60%;
     font-size:1.2rem;
     background-color: #38ab9a;
-    transition: ease-in;
+    
 }
 
 #location-contact-section img {
