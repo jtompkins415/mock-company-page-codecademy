@@ -1,0 +1,378 @@
+/* General Styles */
+
+html {
+    font-size: 16px;
+    background-color: #F4FFFF;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+
+/* Nav Styles */
+
+#nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin: 50px auto;
+    width: 100%;
+
+}
+
+#nav-container li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #163438;
+    line-height: 30px;
+    font-size: 1.25rem;
+}
+
+#nav-container li a:hover {
+    color:#3E9E90;
+    font-size: 1.35rem;
+    transition: ease-in;
+}
+
+
+/* Banner Styles */
+
+#banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url('../images/video-lighting-kit-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+#hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+#hero-banner .banner-container {
+    text-transform: uppercase;
+    text-align: center;
+    color: #163438;
+    background-color: #F4FFFF;
+    padding: 0 50px;
+}
+
+#hero-banner .banner-container h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: -.5rem;
+    letter-spacing: 1rem;
+}
+
+#hero-banner .banner-container h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* About Us Styles */
+
+#about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E9E90;
+    margin: 40px auto;
+    width: 95%;
+    height: 600px;
+    border-radius: 50px;
+}
+
+#about-us-container {
+    margin-top: -4rem;
+    color: #F4FFFF;
+}
+
+#about-us-container .container-title {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#about-us-container .container-title h3 {
+    font-size: 2.25rem;
+}
+
+#about-us-container .image-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#about-us-container .image-container img {
+    margin-left: 30px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#about-us-container .text-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: 50%;
+    text-align: right;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+
+#about-us-container .text-container p {
+    font-size: 1.35rem;
+}
+
+/* Services Styles */
+
+#services-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #89D9CD;
+    width: 95%;
+    margin: 40px auto;
+    border-radius: 50px;
+}
+
+#services-container {
+    color: #163438;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+#services-container .container-title {
+    color: #F4FFFF;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#services-container .container-title h3 {
+    font-size: 3.25rem;
+}
+
+
+#services-container .service{
+   width: 50%;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+#services-container .service .text-container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+#services-container .service .image-container {
+    margin: 0 auto;
+}
+
+
+#services-section img {
+    width: 400px;
+    height: 300px;
+    border-radius: 100%;
+    
+}
+
+/* Team Styles */
+
+#team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 1200px;
+    margin: 40px auto;
+    background-color: #3E9E90;
+    border-radius: 50px;
+
+}
+
+
+#team-container {
+    color: #F4FFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+#team-container h4 {
+    font-size: 1.2rem;
+    margin-bottom: -10px;
+}
+
+#team-container .container-title {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#team-container .container-title h3 {
+    font-size: 2.25rem;
+}
+
+#team-container .team-member {
+    margin: 0 30px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team-container .team-member .image-container {
+    margin: 0 auto;
+}
+
+#team-section img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+/* Location/Contact Us Styles */
+
+#location-contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 700px;
+    background-color: #89D9CD;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+#location-contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5% auto;
+    width: 95%;
+    text-transform: uppercase;
+}
+
+#location-contact-container .location {
+   display: inline-block;
+   vertical-align: middle;
+   text-align: center;
+   margin-right: 50px;
+}
+
+
+#location-contact-container .location-container {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#location-contact-container .location-container h4 {
+    font-size: 1.25rem;
+}
+
+#location-contact-container .form-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33%;
+    height: 500px;
+    margin-left: 50px;
+    background-color: #525F5D;
+    border: solid 1px #163438;
+    box-shadow: 2px 1px 1px 2px #163438;
+    border-radius: 10%;
+    color: #F4FFFF;
+}
+
+#location-contact-container .form-container h4 {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#location-contact-container .form-container form {
+    text-align: center;
+}
+
+#location-contact-container .form-container form input, #location-contact-container .form-container form label, #location-contact-container .form-container form button
+{
+    display: block;
+    margin: 0 auto;   
+}
+
+#location-contact-container .form-container form textarea {
+    font-family: 'Jost', sans-serif;
+    border-radius: 3%;
+    
+}
+
+
+
+#location-contact-container .form-container form button {
+    margin-top: 10px;
+    background-color: #4ADFC9;
+    border: none;
+    border-radius: 50px;
+    width: 55%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px;
+}
+
+#location-contact-container .form-container form button:hover{
+    width: 60%;
+    font-size:1.2rem;
+    background-color: #38ab9a;
+    transition: ease-in;
+}
+
+#location-contact-section img {
+    width: 500px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: #F4FFFF;
+}
+
+footer p {
+    font-size: .85rem;
+    text-transform: uppercase;
+
+}
+
+footer p a {
+    text-decoration: none;
+    color: #38ab9a;
+}
